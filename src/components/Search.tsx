@@ -102,8 +102,8 @@ export default function SearchBar({ searchList }: Props) {
         <div className="mt-8">
           ¡{searchResults?.length}
           {searchResults?.length && searchResults?.length === 1
-            ? value={inputVal} "  salvaje!"
-            : value={inputVal} "s salvajes!"}{" "}
+            ? " resultado salvaje!"
+            : " resultados salvajes!"}{" "}
             <img src="/assets/pokeball.gif" alt="Buscando" />
         </div>
       )}
