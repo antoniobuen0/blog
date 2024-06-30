@@ -75,13 +75,6 @@ export default function SearchBar({ searchList }: Props) {
 
   return (
     <>
-      <style>
-        .small-gif {
-          width: 12px;
-          height: 12px;
-        }
-      </style>
-
       <label className="relative block">
         <span className="absolute inset-y-0 left-0 flex items-center pl-2 opacity-75">
           <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -109,8 +102,8 @@ export default function SearchBar({ searchList }: Props) {
         <div className="mt-8">
           ¡{searchResults?.length}
           {searchResults?.length && searchResults?.length === 1
-            ? " resultado salvaje!" <img src="/assets/pokeball.gif" alt="Buscando" class="small-gif"/>
-            : " resultados salvajes!" <img src="/assets/pokeball.gif" alt="Buscando" class="small-gif" />}{" "}
+            ? " resultado salvaje!"  />
+            : " resultados salvajes!" />}{" "}
             
         </div>
       )}
