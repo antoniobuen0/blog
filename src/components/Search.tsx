@@ -102,8 +102,8 @@ export default function SearchBar({ searchList }: Props) {
         <div className="mt-8">
           ¡{searchResults?.length}
           {searchResults?.length && searchResults?.length === 1
-            ? " resultado salvaje!"  />
-            : " resultados salvajes!" />}{" "}
+            ? " resultado salvaje!"
+            : " resultados salvajes!"}{" "}
             
         </div>
       )}
